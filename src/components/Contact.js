@@ -1,18 +1,15 @@
 import './Contact.css'
 import React from 'react'
 
-const name = "Bobby Mitchelle"
-const online = false;
-const avatar = "https://randomuser.me/api/portraits/men/34.jpg"
+const online = true;
 
 function Contact() {
     return (
         <div className="Contact">
-            <div className="name">
-            <img src={avatar} alt="Picture of a random user">
-            </img>
-            <h1>{name}</h1>
-            {online ? <strong>Is Online</strong> : <strong1>Is Offline</strong1>}
+            <img className="avatar" src="https://randomuser.me/api/portraits/men/34.jpg" alt="Random User"></img>
+            <div className="status">
+            <h3 className="name">Bobby Mitchelle</h3>
+                {online ? <p>Online</p> : <p>Offline</p>}
          </div>
         </div>
     )
