@@ -38,10 +38,10 @@
     margin-right: 6px;
   }
   
-  .Contact .status .status-online {
+  strong {
     background: #aed581;
   }
   
-  .Contact .status .status-offline {
+  strong1 {
     background: #f4511e;
   }

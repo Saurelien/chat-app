@@ -2,7 +2,7 @@ import './Contact.css'
 import React from 'react'
 
 const name = "Bobby Mitchelle"
-const online = true;
+const online = false;
 const avatar = "https://randomuser.me/api/portraits/men/34.jpg"
 
 function Contact() {
